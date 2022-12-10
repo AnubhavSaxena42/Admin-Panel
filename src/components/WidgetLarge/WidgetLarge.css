@@ -4,3 +4,59 @@
   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
   padding: 20px;
 }
+
+.widget-large-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.widget-large-table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widget-large-th,
+.widget-large-td {
+  text-align: left;
+}
+
+.widget-large-user {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+}
+
+.widget-large-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widget-large-date,
+.widget-large-amount {
+  font-weight: 300;
+}
+
+.widget-large-btn {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widget-large-btn.Approved {
+  background-color: rgb(211, 246, 211);
+  color: rgb(79, 138, 79);
+}
+
+.widget-large-btn.Declined {
+  background-color: rgb(246, 193, 193);
+  color: rgb(243, 104, 104);
+}
+
+.widget-large-btn.Pending {
+  background-color: rgb(195, 228, 240);
+  color: rgb(86, 86, 246);
+}
