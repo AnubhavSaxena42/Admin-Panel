@@ -49,6 +49,97 @@ export const userData = [
   },
 ];
 
+export const productsRows = [
+  {
+    id: 1,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 2,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 3,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 4,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 5,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 6,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 7,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 8,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+
+  {
+    id: 9,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+  {
+    id: 10,
+    name: "Airpods",
+    img: "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    stock: 123,
+    status: "ACTIVE",
+    price: "$567",
+  },
+];
+
 export const tableRows = [
   {
     id: 1,
