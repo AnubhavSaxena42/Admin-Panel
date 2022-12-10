@@ -11,6 +11,7 @@ import {
 } from "@material-ui/icons";
 import React from "react";
 import { BarChart } from "recharts";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -20,10 +21,12 @@ const Sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Dashboard</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
-              <LineStyle className="sidebar-icon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebar-list-item active">
+                <LineStyle className="sidebar-icon" />
+                Home
+              </li>
+            </Link>
             <li className="sidebar-list-item">
               <Timeline className="sidebar-icon" />
               Analytics
@@ -37,14 +40,18 @@ const Sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
-              <PermIdentity className="sidebar-icon" />
-              Users
-            </li>
-            <li className="sidebar-list-item">
-              <Storefront className="sidebar-icon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebar-list-item active">
+                <PermIdentity className="sidebar-icon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebar-list-item">
+                <Storefront className="sidebar-icon" />
+                Products
+              </li>
+            </Link>
             <li className="sidebar-list-item">
               <BarChart className="sidebar-icon" />
               Reports
