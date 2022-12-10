@@ -48,3 +48,103 @@ export const userData = [
     "Active Users": 3000,
   },
 ];
+
+export const tableRows = [
+  {
+    id: 1,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 2,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 3,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 4,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 5,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 6,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 7,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+
+  {
+    id: 8,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+  {
+    id: 9,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+  {
+    id: 10,
+    username: "Ren Chon",
+    avatar:
+      "https://pbs.twimg.com/profile_images/488746592376074241/PLIW5eob_400x400.png",
+    email: "renchon@zaamo.co",
+    status: "ACTIVE",
+    transaction: "$567",
+  },
+];
